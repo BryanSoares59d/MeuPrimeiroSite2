@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    background-image: url(../img/fundo_rickandmorty.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+#menu ul li {
+    display: inline;
+    font-size: 1.2em;
+}
+
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: rgb(98, 0, 255);
+}
+
+nav{
+    width: 80%;
+}
+
+main{
+    background-color: transparent;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 0,7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: blueviolet;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1%;
+}
+
+h1,h2{
+    line-height: 3;
+}
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    background-color: transparent;
+    color: white;
+   font-size: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   text-align: center;
+   margin: 1px;
+   border: 2px solid blueviolet;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1.5%;
+}
+
+p{
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.logo img{
+    max-width: 40%;
+    height: auto;
+}
+
+figure{
+    text-align: center;
+    display: inline-block;
+}
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;
+}
+
+figure img{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px gray;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption{
+    margin: 1.0em;
+    text-align: center;
+    color: gold;
+}
